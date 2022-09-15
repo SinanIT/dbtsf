@@ -19,3 +19,18 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: snowflake_customer_purchases
+    description: "the total purchases for each customer in snowflake sample data"
+    columns:
+      - name: c_custkey
+        tests:
+          - unique
+          - not_null
+  
+  - name: snowflake_cumulative_orders_by_date
+    description: "the cumulative orders by date"
+    columns:
+      - name: o_orderdate
+        tests:
+          - not_null
