@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: dim_balance_stage__health__pathways
+    description: "A starter dbt model"
+
+
+    columns:
+      - name: segment_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
