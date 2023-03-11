@@ -9,28 +9,28 @@ models:
 
 
 columns:
-      - name: current_database
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
-      - name: id
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
-      - name: c_custkey
-        tests:
-          - unique
-          - not_null
-      - name: current_database
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null  
-      - name: segment_id
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
+  - name: current_database
+    description: "The primary key for this table"
+    tests:
+      - unique
+      - not_null
+  - name: id
+    description: "The primary key for this table"
+    tests:
+      - unique
+      - not_null
+  - name: c_custkey
+    tests:
+      - unique
+      - not_null
+  - name: current_database
+    description: "The primary key for this table"
+    tests:
+      - unique
+      - not_null
+  - name: segment_id
+    description: "The primary key for this table"
+    tests:
+      - unique
+      - not_null
     
